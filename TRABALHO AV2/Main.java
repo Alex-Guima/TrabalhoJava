@@ -4,7 +4,7 @@ public class Main{
 		//PS4 ps4 = new PS4();
 		Xbox xboxOne = new Xbox();
 		NSW nsw = new NSW();
-		PS4 ps4 = new PS4("Sony", "Horizon", "1.000.000");
+		PS4 ps4 = new PS4("Sony", "Horizon Zero Dawn, Infamous Second Son, The Last of Us", "116.000.000");
 
 		//ps4.setMarca("Sony");
 		//ps4.setExclusivos("Bloodborne, Uncharted 4, God of War, Gran Turismo");
