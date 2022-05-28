@@ -1,13 +1,15 @@
 public class Main{	
 	public static void main(String[] args){
 		Videogames videogame = new Videogames();
-		PS4 ps4 = new PS4();
+		//PS4 ps4 = new PS4();
 		Xbox xboxOne = new Xbox();
 		NSW nsw = new NSW();
+		PS4 ps4 = new PS4("Sony", "Horizon", "1.000.000");
 
-		ps4.setMarca("Sony");
-		ps4.setExclusivos("Bloodborne, Uncharted 4, God of War, Gran Turismo");
-		ps4.setVendas("116.000.000");
+		//ps4.setMarca("Sony");
+		//ps4.setExclusivos("Bloodborne, Uncharted 4, God of War, Gran Turismo");
+		//ps4.setVendas("116.000.000");
+
 		
 		xboxOne.setMarca("Microsoft");
 		xboxOne.setExclusivos("Jogos Forza, Halo, Gears of War"); 
