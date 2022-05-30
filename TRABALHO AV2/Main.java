@@ -1,9 +1,11 @@
 public class Main{	
 	public static void main(String[] args){
 		Videogames videogame = new Videogames();
-		//PS4 ps4 = new PS4();
 		Xbox xboxOne = new Xbox();
 		NSW nsw = new NSW();
+
+        //Ou passa como parâmetro no método construtor, ou usa os métodos set separadamente para alterar o valor das variáveis da classe PS4
+
 		PS4 ps4 = new PS4("Sony", "Horizon Zero Dawn, Infamous Second Son, The Last of Us", "116.000.000");
 
 		//ps4.setMarca("Sony");
