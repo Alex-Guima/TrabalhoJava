@@ -1,5 +1,7 @@
 public class Videogames{
 	private String marca, principaisExclusivos, nmroVendas;
+
+	//Método que vai sofrer polimorfismo nas diferentes subclasses
 	
 	public void consoles(){
 		System.out.printf("Consoles existem desde 1972%n");
